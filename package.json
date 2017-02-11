@@ -1,0 +1,69 @@
+{
+    "author": "The Resetter",
+    "dependencies": {},
+    "keywords": [],
+    "name": "hfg-v1.0",
+    "pebble": {
+        "displayName": "HfG",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Mouse W.png",
+                    "name": "IMAGE_MOUSE_W",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Mouse B.png",
+                    "name": "IMAGE_MOUSE_B",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9 ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_30",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9 ]",
+                    "file": "fonts/Prelude Bold.ttf",
+                    "name": "FONT_PRELUDE_BOLD_30",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "214fe09b-9362-445f-b860-9c32a03cb758",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
