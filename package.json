@@ -11,29 +11,52 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/Mouse W.png",
-                    "name": "IMAGE_MOUSE_W",
-                    "targetPlatforms": [
-                        "aplite",
-                        "basalt",
-                        "diorite"
-                    ],
+                    "file": "images/HfG Icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/Mouse B.png",
-                    "name": "IMAGE_MOUSE_B",
-                    "targetPlatforms": [
-                        "aplite",
-                        "basalt",
-                        "diorite"
-                    ],
-                    "type": "bitmap"
+                    "file": "fonts/PreludeCondWGL-LightItalic.ttf",
+                    "name": "FONT_PRELUDE_COND_LIGHT_ITALIC_48",
+                    "targetPlatforms": null,
+                    "type": "font"
                 },
                 {
-                    "characterRegex": "[a-zA-Z0-9 ]",
+                    "file": "fonts/PreludeCondWGL-Light.ttf",
+                    "name": "FONT_PRELUDE_COND_LIGHT_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/PreludeCondWGL-Light.ttf",
+                    "name": "FONT_PRELUDE_COND_LIGHT_40",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/PreludeCondWGL-Light.ttf",
+                    "name": "FONT_PRELUDE_COND_LIGHT_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/PreludeCondWGL-Light.ttf",
+                    "name": "FONT_PRELUDE_COND_LIGHT_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Prelude-MediumOblique.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_OBLIQUE_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
                     "file": "fonts/Prelude-Medium.ttf",
-                    "name": "FONT_PRELUDE_MEDIUM_30",
+                    "name": "FONT_PRELUDE_MEDIUM_48",
                     "targetPlatforms": [
                         "aplite",
                         "basalt",
@@ -42,9 +65,108 @@
                     "type": "font"
                 },
                 {
-                    "characterRegex": "[a-zA-Z0-9 ]",
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_40",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_36",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_18",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_14",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude-Medium.ttf",
+                    "name": "FONT_PRELUDE_MEDIUM_10",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
                     "file": "fonts/Prelude Bold.ttf",
-                    "name": "FONT_PRELUDE_BOLD_30",
+                    "name": "FONT_PRELUDE_BOLD_32",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude Bold.ttf",
+                    "name": "FONT_PRELUDE_BOLD_18",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude Bold.ttf",
+                    "name": "FONT_PRELUDE_BOLD_36",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude Bold.ttf",
+                    "name": "FONT_PRELUDE_BOLD_40",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9: ]",
+                    "file": "fonts/Prelude Bold.ttf",
+                    "name": "FONT_PRELUDE_BOLD_14",
                     "targetPlatforms": [
                         "aplite",
                         "basalt",
@@ -56,9 +178,7 @@
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "aplite",
-            "basalt",
-            "diorite"
+            "basalt"
         ],
         "uuid": "214fe09b-9362-445f-b860-9c32a03cb758",
         "watchapp": {
